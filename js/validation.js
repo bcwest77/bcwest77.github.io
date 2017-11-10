@@ -18,8 +18,8 @@ $(document).ready(function(){
         
         //specify validation error messages
         messages: {
-            first: "Please enter your first and last name!",
-            last: "Please enter your first and last name!",
+            first: "Required",
+            last: "Required",
             email: "Please enter a valid email address!",
             phone: {
                 required: "Please enter a valid phone number!",

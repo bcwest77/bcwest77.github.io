@@ -391,11 +391,33 @@ nav {
 
 /* VALIDATION ERRORS */
 
-#first-error {
+#enforcement-form #first-error {
     position: absolute;
-    left: 170px;
+    left: 180px;
     font-size: 11px;
     top: 22px;
+    text-align: left;
+}
+#enforcement-form #last-error {
+    position: absolute;
+    left: 360px;
+    font-size: 11px;
+    top: 22px;
+    text-align: left;
+}
+
+#email-form #first-error {
+    position: absolute;
+    left: 322px;
+    font-size: 11px;
+    bottom: 127px;
+    text-align: left;
+}
+#email-form #last-error {
+    position: absolute;
+    left: 596px;
+    font-size: 11px;
+    bottom: 127px;
     text-align: left;
 }
 
