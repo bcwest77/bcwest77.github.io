@@ -1,3 +1,4 @@
+console.log("Validation ready!");
 $("#enforcement-form").validate({
     //specify the validation rules
     rules: {
