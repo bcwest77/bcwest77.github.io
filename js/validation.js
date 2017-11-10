@@ -48,8 +48,8 @@ $(document).ready(function(){
         
         //specify validation error messages
         messages: {
-            first: "Please enter your first name!",
-            last: "Please enter your last name!",
+            first: "Required",
+            last: "Required",
             email: "Please enter a valid email address!",
         },
         
