@@ -1,4 +1,3 @@
-console.log("Validation ready!");
 $(document).ready(function(){
     $("#enforcement-form").validate({
         //specify the validation rules
@@ -19,8 +18,8 @@ $(document).ready(function(){
         
         //specify validation error messages
         messages: {
-            first: "Please enter your first name!",
-            last: "Please enter your last name!",
+            first: "Please enter your first and last name!",
+            last: "Please enter your first and last name!",
             email: "Please enter a valid email address!",
             phone: {
                 required: "Please enter a valid phone number!",
