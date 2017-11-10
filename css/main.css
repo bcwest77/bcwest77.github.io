@@ -387,3 +387,16 @@ nav {
     background-color: #246A81;
 }
 /* ---------- */
+
+
+/* VALIDATION ERRORS */
+
+#first-error {
+    position: absolute;
+    left: 170px;
+    font-size: 11px;
+    top: 22px;
+    text-align: left;
+}
+
+/* ---------- */
