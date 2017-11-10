@@ -2,6 +2,8 @@
 layout: info-layout
 title: Prairie Fields HOA
 ---
+<script src="js/validation.js" type="text/javascript"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
 <style>
     form h5 {
         text-align: left;
@@ -35,7 +37,7 @@ title: Prairie Fields HOA
 
                         </div>
 
-                        <form>
+                        <form id="enforcement-form">
 
                             <div class="col-md-6">
                                 
@@ -44,7 +46,7 @@ title: Prairie Fields HOA
                                 <input type="text" name="last" style="width:175px" placeholder="Last">
 
                                 <h5>Your Phone Number</h5>
-                                <input type="text" name="phone" style="width:350px">
+                                <input type="text" name="phone" style="width:350px" placeholder="555-5555">
 
                                 <h5>Your Email Address</h5>
                                 <input type="text" name="email" style="width:350px">
