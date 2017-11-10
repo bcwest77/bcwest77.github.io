@@ -17,6 +17,11 @@ body {
     color: #4D4D4D;
 }
 
+.error {
+    font-size: 12px;
+    color: #c10000;
+}
+
 #header {
     margin-top: 5px;
     background-color: white;
