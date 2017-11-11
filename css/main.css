@@ -410,14 +410,14 @@ nav {
     position: absolute;
     left: 400px;
     font-size: 11px;
-    bottom: 122px;
+    bottom: 124px;
     text-align: left;
 }
 #email-form #last-error {
     position: absolute;
     left: 580px;
     font-size: 11px;
-    bottom: 122px;
+    bottom: 124px;
     text-align: left;
 }
 #email-form #_replyto-error {
