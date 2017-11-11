@@ -395,30 +395,35 @@ nav {
     position: absolute;
     left: 180px;
     font-size: 11px;
-    top: 22px;
+    top: 20px;
     text-align: left;
 }
 #enforcement-form #last-error {
     position: absolute;
     left: 360px;
     font-size: 11px;
-    top: 22px;
+    top: 20px;
     text-align: left;
 }
 
 #email-form #first-error {
     position: absolute;
-    left: 322px;
+    left: 400px;
     font-size: 11px;
-    bottom: 127px;
+    bottom: 122px;
     text-align: left;
 }
 #email-form #last-error {
     position: absolute;
-    left: 596px;
+    left: 580px;
     font-size: 11px;
-    bottom: 127px;
+    bottom: 122px;
     text-align: left;
+}
+#email-form #email-error {
+    position: absolute;
+    bottom: 25px;
+    left: 340px;
 }
 
 /* ---------- */
