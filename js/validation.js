@@ -4,7 +4,7 @@ $(document).ready(function(){
         rules: {
             first: "required",
             last: "required",
-            email: {
+            _replyto: {
                 required: true,
                 email: true //email is required AND must be in the form of a valid email address
             },
@@ -20,7 +20,7 @@ $(document).ready(function(){
         messages: {
             first: "Required",
             last: "Required",
-            email: "Please enter a valid email address!",
+            _replyto: "Please enter a valid email address!",
             phone: {
                 required: "Please enter a valid phone number!",
                 minlength: "Please enter a valid 7-digit phone number!"
