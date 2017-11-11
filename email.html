@@ -54,24 +54,30 @@ title: Prairie Fields HOA
                             </p>
                             <br>
 
-                            <form id="email-form">
+                            <form 
+                            >
+                            <form id="email-form" action="https://formspree.io/bcwest77@gmail.com" method="POST">
 
                                 <div class="col-md-12">
-                                    
-                                <h5 style="margin-bottom:15px">Your Name</h5>
-                                <input type="text" name="first" style="width:175px" placeholder="First">
-                                <input type="text" name="last" style="width:175px" placeholder="Last">
+                                        
+                                    <h5 style="margin-bottom:15px">Your Name</h5>
+                                    <input type="text" name="first" style="width:175px" placeholder="First">
+                                    <input type="text" name="last" style="width:175px" placeholder="Last">
 
-                                <h5>Your Email Address</h5>
-                                <input type="text" name="email" style="width:350px">
-                                <br><br>
-                                <div class="col-md-6 col-md-offset-3 text-right">
+                                    <h5>Your Email Address</h5>
+                                    <input type="text" name="_replyto" style="width:350px">
+                                    <br><br>
+                                    <div class="col-md-6 col-md-offset-3 text-right">
 
-                                    <input type="submit" name="sub" value="Submit" style="margin-right:33px">
+                                        <input type="submit" name="sub" value="Submit" style="margin-right:33px">
+
+                                    </div>
 
                                 </div>
 
-                                </div>
+                                <input type="text" name="_gotcha" style="display:none" />
+                                <input type="hidden" name="_subject" value="New mailing list submission!" />
+                                <input type="hidden" name="_next" value="thanks.html" />
 
                             </form>
 

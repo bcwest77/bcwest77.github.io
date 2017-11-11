@@ -420,7 +420,7 @@ nav {
     bottom: 122px;
     text-align: left;
 }
-#email-form #email-error {
+#email-form #_replyto-error {
     position: absolute;
     bottom: 25px;
     left: 340px;
