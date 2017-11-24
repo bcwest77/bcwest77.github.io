@@ -143,7 +143,7 @@ a:focus.small-btn {
 a .info-link {
     color: #246A81;
     background-color: white;
-    border: 10px solid #246A81;
+    border: 6px solid #246A81;
     border-radius: 30px;
     font-size: 30px;
     font-weight: bold;
@@ -154,28 +154,14 @@ a .info-link {
 a:hover .info-link {
     color: white;
     background-color: #246A81;
-    border: 10px solid #246A81;
-    border-radius: 30px;
-    font-size: 26px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    height: 100px;
-    line-height: 75px;
 }
 a:focus .info-link {
     color: white;
     background-color: #246A81;
-    border: 10px solid #246A81;
-    border-radius: 30px;
-    font-size: 26px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    height: 100px;
-    line-height: 75px;
 }
 
 #info-btn-sm {
-    line-height: 38px;
+    line-height: 42px;
 }
 
 button.dropdown-toggle {
