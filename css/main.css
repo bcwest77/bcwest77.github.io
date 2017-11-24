@@ -68,15 +68,18 @@ p, ol {
 
 h1 {
     color: #5D98AB;
+    font-weight: bold;
     text-shadow: -1px 0 rgba(0,0,0,0.2), 0 1px rgba(0,0,0,0.2), 1px 0 rgba(0,0,0,0.2), 0 -1px rgba(0,0,0,0.2);
 }
 h2 {
     color: #246A81;
+    font-weight: bold;
 }
 h4 {
     color: #246A81;
     margin-top: 10px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 hr {
@@ -105,7 +108,7 @@ a {
 .cov-files a {
     color: #246A81;
     background-color: white;
-    border: 10px solid #246A81;
+    border: 8px solid #246A81;
     border-radius: 100%;
     font-size: 18px;
     padding: 8px;
@@ -113,7 +116,6 @@ a {
 .cov-files a:hover {
     color: white;
     background-color: #246A81;
-    border: 10px solid #246A81;
     border-radius: 100%;
     font-size: 18px;
     padding: 8px;
@@ -121,7 +123,6 @@ a {
 .cov-files a:focus {
     color: white;
     background-color: #246A81;
-    border: 10px solid #246A81;
     border-radius: 100%;
     font-size: 18px;
     padding: 8px;
@@ -307,18 +308,17 @@ nav {
 .archive-months a {
     color: #246A81;
     background-color: white;
-    border: 10px solid #246A81;
+    border: 6px solid #246A81;
     border-radius: 50px;
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 75px;
-    padding: 5px;
+    padding: 12px;
 }
 .archive-months a:hover {
     color: white;
     background-color: #246A81;
-    border: 10px solid #246A81;
     border-radius: 50px;
     font-size: 26px;
     font-weight: bold;
@@ -329,7 +329,6 @@ nav {
 .archive-months a:focus {
     color: white;
     background-color: #246A81;
-    border: 10px solid #246A81;
     border-radius: 50px;
     font-size: 26px;
     font-weight: bold;
@@ -345,7 +344,7 @@ nav {
 .archive-years a {
     color: #246A81;
     background-color: white;
-    border: 10px solid #246A81;
+    border: 6px solid #246A81;
     border-radius: 50px;
     font-size: 22px;
     font-weight: bold;
@@ -358,7 +357,6 @@ nav {
 .archive-years a:hover {
     color: white;
     background-color: #246A81;
-    border: 10px solid #246A81;
     border-radius: 50px;
     font-size: 26px;
     font-weight: bold;
@@ -371,7 +369,6 @@ nav {
 .archive-years a:focus {
     color: white;
     background-color: #246A81;
-    border: 10px solid #246A81;
     border-radius: 50px;
     font-size: 26px;
     font-weight: bold;
