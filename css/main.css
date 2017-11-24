@@ -12,7 +12,7 @@ WHITE
 
 /* MAIN STYLES */
 body {
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-family: 'Open Sans', sans-serif;    
     background: url("../img/bgimg.jpg") fixed no-repeat;
     background-color: #3B7B91;
     color: #4D4D4D;
