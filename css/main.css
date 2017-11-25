@@ -103,6 +103,7 @@ hr {
 a {
     text-decoration: none !important;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .cov-files a {
