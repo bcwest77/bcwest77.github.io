@@ -200,7 +200,7 @@ button:focus.dropdown-toggle {
 .board a {
     outline: none;
 }
-.board a:hover, .board a:focus img, .board a:active:focus {
+.board a:hover img, .board a:focus img, .board a:active:focus img {
     border: 8px solid #5D98AB;
 }
 
