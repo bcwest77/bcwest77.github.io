@@ -196,6 +196,14 @@ button:focus.dropdown-toggle {
 #short-btn {
     border-bottom-right-radius: 30px;
 }
+
+.board a {
+    outline: none;
+}
+.board a:focus img, .board a:active:focus {
+    border: 8px solid #5D98AB;
+}
+
 /* ---------- */
 
 
