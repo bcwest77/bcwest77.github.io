@@ -8,11 +8,11 @@ $(document).ready(function(){
             activeModal = $(this).attr("data-target");
 
             console.log(activeModal + ".modal-footer button");
-            $(activeModal + ".modal-footer button").focus();
-            $(activeModal + ".modal-footer button").keypress(function(e){
+            $(activeModal + ".modal-footer button").get(0).focus();
+            $(activeModal + ".modal-footer button").get(0).keypress(function(e){
                 if (e.which !== 13) {
                     e.preventDefault();
-                    $(activeModal + " .modal-footer button").focus();
+                    console.log(1);
                 }
             });
 
