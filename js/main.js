@@ -8,7 +8,7 @@ $(document).ready(function(){
             $(this).click();
             activeModal = $(this).attr("data-target");
 
-            $("#test").focus();
+            document.getElementById("test").focus();
             $(activeModal + " .modal-footer button").keydown(function(e){
                 console.log(1);
                 if (e.which !== 13) {
