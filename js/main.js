@@ -3,7 +3,7 @@ $(document).ready(function(){
     // -----BOARD PAGE ---------
 
     var activeModal = null;
-    $(".board a").keydown(function(e){
+    $(".board a, #committees.col-md-4 a").keydown(function(e){
         if (e.which == 13) {
             $(this).click();
             activeModal = $(this).attr("data-target");
