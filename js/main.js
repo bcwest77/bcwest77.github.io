@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     
 
-    $("#Sopa.modal-footer button").keypress(function(e){
+    $("#test").keypress(function(e){
         console.log(1);
         if (e.which !== 13) {
             e.preventDefault();
@@ -16,6 +16,12 @@ $(document).ready(function(){
         if (e.which == 13) {
             $(this).click();
             activeModal = $(this).attr("data-target");
+            $("#test").keypress(function(e){
+                console.log(1);
+                if (e.which !== 13) {
+                    e.preventDefault();
+                }
+            });
 
             console.log(activeModal);
         }
