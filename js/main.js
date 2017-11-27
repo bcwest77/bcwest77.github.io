@@ -8,7 +8,9 @@ $(document).ready(function(){
             $(this).click();
             activeModal = $(this).attr("data-target");
             
-            focusTest();
+            setTimeout(function () {
+                $("#test").focus();
+            }, 200);
             
     
             $(activeModal + " .modal-footer button").keydown(function(e){
@@ -24,9 +26,3 @@ $(document).ready(function(){
     //--------------------------
 
 });
-
-function focusTest() {
-    setTimeout(function () {
-        $("#test").focus();
-    }, 100);
-}
