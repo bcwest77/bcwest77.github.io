@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    // -----BOARD PAGE ---------
+    // -----BOARD PAGE --------
 
     var activeModal = null;
     $(".board a, #committees.col-md-4 a").keydown(function(e){
