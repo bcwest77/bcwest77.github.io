@@ -7,8 +7,8 @@ $(document).ready(function(){
         if (e.which == 13) {
             $(this).click();
             activeModal = $(this).attr("data-target");
-
-            window.setTimeout(function () { $('#test').focus(); }, 1);
+            
+            focusTest();
             
     
             $(activeModal + " .modal-footer button").keydown(function(e){
@@ -21,7 +21,10 @@ $(document).ready(function(){
             console.log(activeModal);
         }
     });
-
     //--------------------------
 
 });
+
+function focusTest() {
+    $("#test").focus();
+}
