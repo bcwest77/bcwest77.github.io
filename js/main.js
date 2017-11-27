@@ -6,11 +6,12 @@ $(document).ready(function(){
         if (e.which == 13) {
             activeModal = $(this).attr("data-target");
 
-            $(activeModal + " button").focus();
-            $(activeModal + " button").keypress(function(e){
+            $(activeModal).keypress(function(e){
                 if (e.which !== 13) {
                     e.preventDefault();
                 }
+                else
+                    $(activeModal).modal("hide");
             });
 
             console.log(activeModal);
