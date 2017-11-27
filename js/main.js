@@ -7,7 +7,7 @@ $(document).ready(function(){
             $(this).click();
             activeModal = $(this).attr("data-target");
 
-            $(activeModal + " .modal-footer button").keypress(function(e){
+            $(activeModal).keypress(function(e){
                 if (e.which !== 13) {
                     e.preventDefault();
                     console.log(1);
