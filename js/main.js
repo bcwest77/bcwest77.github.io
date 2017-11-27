@@ -4,10 +4,10 @@ $(document).ready(function(){
 
     
 
-    $(".modal-footer button").keypress(function(e){
+    $("#Sopa.modal-footer button").keypress(function(e){
+        console.log(1);
         if (e.which !== 13) {
             e.preventDefault();
-            console.log(1);
         }
     });
 
