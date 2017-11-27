@@ -8,19 +8,16 @@ $(document).ready(function(){
             $(this).click();
             activeModal = $(this).attr("data-target");
             
+
             setTimeout(function () {
-                $("#test").focus();
-            }, 200);
-            
-    
+                $(activeModal + " .modal-footer button").focus();
+            }, 150);
+
             $(activeModal + " .modal-footer button").keydown(function(e){
-                console.log(1);
-                if (e.which !== 13) {
+                if (e.which == 9) {
                     e.preventDefault();
                 }
             });
-
-            console.log(activeModal);
         }
     });
     //--------------------------
