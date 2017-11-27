@@ -10,7 +10,7 @@ $(document).ready(function(){
 
             setTimeout(function (){
                 $("#test").focus();
-            }, 1);
+            }, 100);
     
             $(activeModal + " .modal-footer button").keydown(function(e){
                 console.log(1);
