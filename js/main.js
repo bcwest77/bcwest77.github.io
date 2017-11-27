@@ -4,6 +4,7 @@ $(document).ready(function(){
     var activeModal = null;
     $(".board a").keypress(function(e){
         if (e.which == 13) {
+            $(this).click();
             activeModal = $(this).attr("data-target");
 
             $(activeModal + " .modal-footer button").focus();
@@ -15,7 +16,6 @@ $(document).ready(function(){
             });
 
             console.log(activeModal);
-            $(this).click();
         }
     });
 
