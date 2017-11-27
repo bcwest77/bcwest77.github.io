@@ -6,12 +6,12 @@ $(document).ready(function(){
         if (e.which == 13) {
             activeModal = $(this).attr("data-target");
 
-            $(activeModal).keypress(function(e){
+            $(activeModal + " .modal-footer button").focus();
+            $(activeModal + " .modal-footer button").keypress(function(e){
                 if (e.which !== 13) {
                     e.preventDefault();
+                    $(activeModal + " .modal-footer button").focus();
                 }
-                else
-                    $(activeModal).modal("hide");
             });
 
             console.log(activeModal);
