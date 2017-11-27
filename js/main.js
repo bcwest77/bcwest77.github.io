@@ -28,5 +28,5 @@ $(document).ready(function(){
 function focusTest() {
     setTimeout(function () {
         $("#test").focus();
-    }, 1000);
+    }, 100);
 }
