@@ -5,9 +5,9 @@ $(document).ready(function(){
     $(".board a").keypress(function(e){
         if (e.which == 13) {
             if (activeModal !== null)
-                activeModal.modal("hide");
+                $(activeModal).modal("hide");
 
-            activeModal = $(this).dataTarget();
+            activeModal = $(this).attr("data-target");
             console.log(activeModal);
             $(this).click();
         }
