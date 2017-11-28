@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    // -----BOARD PAGE --------
+    // ----- MODAL TAB FIX --------
 
     var activeModal = null;
     // When a user presses a key on a board member
@@ -34,7 +34,7 @@ $(document).ready(function(){
                 if (e.which == 9 && e.shiftKey) {
                     // Prevent normal tab behavior
                     e.preventDefault();
-                    // Set focus to the modal's buttom close button
+                    // Set focus to the modal's bottom close button
                     $(activeModal + " .modal-footer button").focus();
                 }
             });
