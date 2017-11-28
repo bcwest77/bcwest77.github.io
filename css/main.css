@@ -169,6 +169,10 @@ a:focus .info-link {
     outline: none !important;
 }
 
+#archives-page .col-md-6 a:focus, #archives-page .col-md-6 a:focus:active {
+    outline: none !important;
+}
+
 #info-btn-sm {
     line-height: 42px;
 }
