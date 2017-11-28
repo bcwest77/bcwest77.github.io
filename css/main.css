@@ -127,6 +127,7 @@ a {
     border-radius: 100%;
     font-size: 18px;
     padding: 8px;
+    outline: none !important;
 }
 a.small-btn {
     padding-left: 14px;
@@ -160,7 +161,11 @@ a:focus .info-link {
     color: white;
     background-color: #246A81;
 }
-#committees .col-md-4 a:focus {
+#committees-page .col-md-4 a:focus {
+    outline: none !important;
+}
+
+#info-page .col-md-4 a:focus, #info-page .col-md-4 a:focus:active {
     outline: none !important;
 }
 
