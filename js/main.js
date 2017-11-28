@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     var activeModal = null;
     // When a user presses a key on a board member
-    $(".board a, #committees-page .col-md-4 a, #archives-page .archive-months a").keydown(function(e){
+    $(".board a, #committees-page .col-md-4 a, #archives-page .archive-months a, #previous-page").keydown(function(e){
         // Check if it's the Return key
         if (e.which == 13) {
             // If so, click the button
