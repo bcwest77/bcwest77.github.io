@@ -159,7 +159,9 @@ a:hover .info-link {
 a:focus .info-link {
     color: white;
     background-color: #246A81;
-    outline: none;
+}
+#committees .col-md-4 a:focus {
+    outline: none !important;
 }
 
 #info-btn-sm {
