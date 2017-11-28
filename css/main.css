@@ -159,6 +159,7 @@ a:hover .info-link {
 a:focus .info-link {
     color: white;
     background-color: #246A81;
+    outline: none;
 }
 
 #info-btn-sm {
