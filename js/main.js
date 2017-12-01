@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-    // ----- MODAL TAB FIX --------
-
+    // ----- MODAL TAB FIX -------
+    
     var activeModal = null;
-    // When a user presses a key on a board member
+    // When a user presses a key on a button containing a modal
     $(".board a, #committees-page .col-md-4 a, #archives-page .archive-months a, #previous-page").keydown(function(e){
         // Check if it's the Return key
         if (e.which == 13) {
-            // If so, click the button
+            // If so, click the button like normal
             $(this).click();
             // Get the modal id from the button clicked
             activeModal = $(this).attr("data-target");
