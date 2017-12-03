@@ -12,7 +12,7 @@ $(document).ready(function(){
         // is required due to the modal's entrance animation
         setTimeout(function () {
             $(activeModal + " .modal-header button").focus();
-        }, 150);
+        }, 175);
 
         // When a user presses a key on the modal's bottom close button
         $(activeModal + " .modal-footer button").keydown(function(e){
