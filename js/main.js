@@ -3,10 +3,10 @@ $(document).ready(function(){
     // ----- MODAL TAB FIX -------
     
     var activeModal = null;
+    // When the user clicks a modal button
     $(".board a, #committees-page .col-md-4 a, #archives-page .archive-months a, #previous-page").click(function() {
         // Get the modal id from the button clicked
         activeModal = $(this).attr("data-target");
-        console.log(activeModal);
         
         // Set focus to the top button in the modal. A timeout 
         // is required due to the modal's entrance animation
@@ -40,7 +40,7 @@ $(document).ready(function(){
     $(".board a, #committees-page .col-md-4 a, #archives-page .archive-months a, #previous-page").keydown(function(e){
         // Check if it's the Return key
         if (e.which == 13) {
-            // If so, click the button like normal
+            // If so, click the button just like a mouse
             $(this).click();
         }
     });
