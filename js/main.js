@@ -2,8 +2,10 @@ $(document).ready(function(){
 
     // ----- MODAL TAB FIX -------
     
+    var activeModal = null;
     $(".board a, #committees-page .col-md-4 a, #archives-page .archive-months a, #previous-page").click(function() {
         // Get the modal id from the button clicked
+            console.log(1);
         activeModal = $(this).attr("data-target");
         
         // Set focus to the top button in the modal. A timeout 
@@ -34,7 +36,6 @@ $(document).ready(function(){
         });
     });
 
-    var activeModal = null;
     // When a user presses a key on a button containing a modal
     $(".board a, #committees-page .col-md-4 a, #archives-page .archive-months a, #previous-page").keydown(function(e){
         // Check if it's the Return key
