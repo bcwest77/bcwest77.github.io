@@ -152,6 +152,7 @@ a .info-link {
     letter-spacing: 1px;
     height: 100px;
     line-height: 2.7em;
+    overflow: hidden;
 }
 a:hover .info-link {
     color: white;
