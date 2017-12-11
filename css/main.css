@@ -252,6 +252,9 @@ button:focus.dropdown-toggle {
 .modal-footer {
     padding: 8px;
 }
+.modal ol li {
+    margin-bottom: 10px;
+}
 /* ---------- */
 
 
